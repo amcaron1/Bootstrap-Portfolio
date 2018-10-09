@@ -17,11 +17,23 @@ main{
     margin-bottom: 25px;
 }
 
-main h2{
+main h2,h5{
     color: #4aaaa5;
     font-family: Georgia, Times, 'Times New Roman', serif;
     border-bottom: solid 1px #4aaaa5;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+
+.first-h5{
+    color: black;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    border-bottom: solid 1px black;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+
+main h2{
     margin-bottom: 20px;
 }
 
@@ -38,16 +50,45 @@ footer {
     height: 55px;
     background-color: #343a40;
     border-top: solid 4px #4aaaa5;
+    text-align: center;
 }
 
-footer p{
-    font-size: 10px;
+.copyright{
+    font-size: 14px;
     text-align: center;
-    position: relative;
-    bottom: -20px;
+    margin-top: 15px;
+    color: white;
 }
 
 img{
+    width: 100%;
+    margin-right: 15px;
     margin-bottom: 10px;
 }
 
+.andrePicture{
+    float: left;
+    width: 25%;
+}
+
+.instructions{
+    border: solid 1px black;
+}
+
+.logos{
+    height: 5%;
+    width: auto;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .andrePicture{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .andrePicture{
+        width: 100%;
+    }
+}
