@@ -81,6 +81,10 @@ img{
     margin-top: 10px;
 }
 
+.row {
+    margin-bottom: 20px;
+}
+
 @media screen and (max-width: 768px) {
     .andrePicture{
         width: 50%;
