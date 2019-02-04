@@ -12,7 +12,7 @@ body{
 
 main{
     padding: 25px;
-    background-color: #ffffff;
+    background-color: rgb(236, 236, 236);
     border: solid 1px #4aaaa5;
     margin-bottom: 25px;
 }
@@ -41,6 +41,59 @@ main p{
     line-height: 30px;
     padding-bottom: 5px;
 }
+
+/* .drink-picture {
+    position: relative;
+    display: inline-block;
+  } */
+  
+  .picture .description {
+    visibility: hidden;
+    width: 300px;
+    background-color: white;
+    color: #343a40;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    border: 3px solid #4aaaa5;
+  
+    /* Position the description */
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+
+.picture:hover .description {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .title .skills {
+    visibility: hidden;
+    width: 300px;
+    background-color: white;
+    color:#343a40;
+    text-align: left;
+    border-radius: 6px;
+    padding: 5px;
+    border: 3px solid #4aaaa5;
+  
+    /* Position the skills */
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+
+.title:hover {
+    text-decoration: none;
+}
+
+.title:hover .skills {
+    visibility: visible;
+    opacity: 1;
+  }
 
 footer {
     position: fixed;
