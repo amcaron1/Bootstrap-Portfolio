@@ -1,4 +1,4 @@
-# Bootstrap-Portfolio
+# Portfolio
 
 - Overview
     - Contains three pages: About, Portfolio, Contact
@@ -15,6 +15,6 @@
     - form with mailto
 
 - Links
-    - Deployed code: https://amcaron1.github.io/Bootstrap-Portfolio/
+    - Deployed code: https://amcaron1.github.io/Portfolio/
     - GitHub repository: https://github.com/amcaron1/Bootstrap-Portfolio/
 
