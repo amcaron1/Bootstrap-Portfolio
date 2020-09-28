@@ -15,6 +15,6 @@
     - form with mailto
 
 - Links
-    - Deployed code: https://amcaron1.github.io/Portfolio/
+    - Deployed code: https://amcaron1.github.io/Bootstrap-Portfolio/
     - GitHub repository: https://github.com/amcaron1/Bootstrap-Portfolio/
 
