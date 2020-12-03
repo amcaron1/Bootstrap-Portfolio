@@ -73,8 +73,7 @@ transition: opacity 0.5s;
     visibility: hidden;
     width: 300px;
     background-color: white;
-    /*color: #343a40;*/
-    color: yellow;
+    color: #343a40;
     text-align: left;
     border-radius: 6px;
     padding: 5px;
